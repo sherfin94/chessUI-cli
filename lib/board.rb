@@ -1,5 +1,5 @@
 class Board
-  attr_reader :number_of_squares, :number_of_pieces, :next_move
+  attr_reader :number_of_squares, :number_of_pieces, :next_move, :squares
 
   @@file_mapping = {
     'a' => 0,
