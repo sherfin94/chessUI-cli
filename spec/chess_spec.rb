@@ -30,5 +30,9 @@ describe Board do
     it 'should have the square d1 with the white queen' do
       expect(board['d1']).to eq('Q')
     end
+
+    it 'should have the square c8 with the black bishop' do
+      expect(board['c8']).to eq('b')
+    end
   end
 end
