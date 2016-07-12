@@ -3,6 +3,10 @@ require_relative 'board'
 class TerminalUI
   def initialize
     @board = Board.new
+  end
+
+  def start
+    clear_screen
     while true
       display_board
       move = get_next_move
