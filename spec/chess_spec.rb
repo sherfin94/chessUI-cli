@@ -55,6 +55,24 @@ describe Board do
       it 'has the square e2 with a white pawn' do
         expect(board['e4']).to eq('P')
       end
+
+      it 'lets black play the next move' do
+        expect(board.next_move).to eq('B')
+      end
+
+      context 'black replies with P d7 d5' do
+        before(:example) do
+          board.move("p d7 d5")
+        end
+
+        it 'has the square d5 with black pawn' do
+          expect(board['d5']).to eq('p')
+        end
+
+        it 'has the square d7 empty' do
+          expect(board['d7']).to eq('E')
+        end
+      end
     end
   end
 end
