@@ -12,4 +12,5 @@ example:
 
  This moves white's kings pawn two steps forward
 
- ## Move validation is currently not supported
+## Features not available
+Move validation is currently not supported
