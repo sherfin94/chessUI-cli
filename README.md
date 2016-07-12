@@ -6,9 +6,10 @@ This is a command line interface for chess based on Ruby. It has been developed 
 run the main.rb file
 
 move input format : [piece name] [from_square] [to_square]
+
 example:
 
- p e2 e2
+ p e2 e4
 
  This moves white's kings pawn two steps forward
 
