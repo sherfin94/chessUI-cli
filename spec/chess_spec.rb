@@ -52,7 +52,7 @@ describe Board do
         expect(board['e2']).to eq('E')
       end
 
-      it 'has the square e2 with a white pawn' do
+      it 'has the square e4 with a white pawn' do
         expect(board['e4']).to eq('P')
       end
 
